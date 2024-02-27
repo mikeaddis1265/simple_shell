@@ -1,6 +1,6 @@
 B.\"Manpage for simple shell 
 
-.\"Created by Suara Ayomide and Ismail Jamiu
+.\"Created by Michael Addis and Rodas Getachew
 .TH HSH 1 "feb 27 2024" "ALX" " - Simple Shell man page"
 
 .SH NAME
@@ -68,11 +68,11 @@ The following builtin commands are supported:
 
 .B env
 
-- Print the current enviroment
+- Print the current environment
 
 .B setenv [Variable] [Value]
 
-- Creates a new environment variab;e or modifies an existing one.
+- Creates a new environment variable;e or modifies an existing one.
 
 .B unsetenv [Variable]
 
@@ -88,7 +88,7 @@ The following builtin commands are supported:
 
 .B help
 
-- Print help message of builtin command
+- Print help message of a builtin command
 
 .SH SEE ALSO
 access(2), chdir(2), execve(2), _exit(2), exit(3), fflush(3), fork(2), free(3), isatty(3), getcwd(3), malloc(3), open(2), read(2), sh(1), signal(2), stat(2), wait(2), write(2)
