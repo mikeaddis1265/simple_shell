@@ -283,8 +283,8 @@ $
 
 ## Authors :black_nib:
 
-* **michaeladdis** ****
-* **rodasgetachew** ****
+* **michaeladdis** **
+* **rodasgetachew** **
 
 ## Acknowledgements :pray:
 
