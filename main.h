@@ -128,7 +128,7 @@ void rev_string(char *s);
 int repeated_char(char *input, int i);
 int error_sep_op(char *input, int i, char last);
 int first_char(char *input, int *i);
-void print_syntax_error(data_shell *datash, char *input, int i, int is_bool);
+void print_syntax_error(data_shell *datash, char *input, int i, int bool);
 int check_syntax_error(data_shell *datash, char *input);
 
 /* shell_loop.c */
@@ -139,8 +139,7 @@ void shell_loop(data_shell *datash);
 char *read_line(int *i_eof);
 
 /* split.c */
-char *swap_char(char *input, int is_bool);
-
+char *swap_char(char *input, int bool);
 void add_nodes(sep_list **head_s, line_list **head_l, char *input);
 void go_next(sep_list **list_s, line_list **list_l, data_shell *datash);
 int split_commands(data_shell *datash, char *input);
